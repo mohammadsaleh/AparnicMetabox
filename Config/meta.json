@@ -1,0 +1,27 @@
+{
+    
+    "metaType":"meta",
+    "targetAction":["Nodes/admin_add","Nodes/admin_edit"],
+    "element":"",
+    "boxes":{
+        "meta title 1":[
+            {
+                "type":"text",
+                "name":"firstname",
+                "defaultValue":"mohammadsaleh"
+            },
+            {
+                "type":"text",
+                "name":"lastname",
+                "defaultValue":"sayari"
+            }
+        ],
+        "meta title 2":[
+            {
+                "type":"text",
+                "name":"country"
+            }
+        ]
+    }
+    
+}

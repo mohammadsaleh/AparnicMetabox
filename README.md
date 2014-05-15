@@ -16,8 +16,8 @@ This plugin automatically generate metabox Or tab using .json file.
 ##How can I setup meta fields?##
 First, Obviously, this plugin must be loaded before others.
 
-Create a file naming "meta.json" in your Plugin/Config/
-In the bootstrap file add below code:
+Create a file naming "meta.json" in your Plugin/Config/ .
+Then edit the PluginName/Config/bootstrap.php file add below code:
 ````
 AparnicMetabox::addMetaJson([PluginName which has meta.json file in it's Config directory]);
 ````
